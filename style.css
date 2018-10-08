@@ -1,0 +1,62 @@
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+.mid{
+    text-align: center;
+    height: 3.5em;
+}
+
+.space{
+    background-image: url('images/space-bar-key.png');
+}
+body {
+    background-color:#aeced8;
+    display: flex;
+ }
+ .container{
+    background-color:#aeced8;
+    height: 100vh;
+    width: 100vh;
+    /* justify-content: center; */
+ }
+ #but{
+     background-image: url('images/keyboard-key.png');
+     height: 32px;
+     width: 32px;
+     border-radius: 5px;
+    }
+#keyboard {
+    padding:10px 15px;
+    border:1px solid #d5d3c4;
+    border-radius:10px;
+    text-align:center;
+    justify-content:center;
+    box-shadow:4px 4px 4px #999;
+    background-color: white;
+ }
+#keyboard div {
+    margin:5px 0;
+ }
+#space {
+    width:184px;
+    height: 32px;
+ }
+#keyboard label {
+    margin-top:20px;
+    font-family:serif;
+    text-decoration:underline;
+ }
+#keyboard input {
+    box-shadow:2px 2px 2px #666;
+    font-weight: bold;
+}
+ @-ms-viewport{
+    width: device-width;
+  }
